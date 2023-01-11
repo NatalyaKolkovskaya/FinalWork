@@ -3,11 +3,10 @@
 // либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
 
-string[] array1 = new string[5] {"12345", "67890", "hello", "world", "Russia"};
-string[] array2 = new string[array1.Length];
-int count = 0;
+string[] array1 = new string[5] {"GB", "123", "hello", "world", "RUS"};
+ string[] array2 = new string[array1.Length];
 
-void SecondArrayWithIF(string[] array1, string[] array2)
+void SecondArray(string[] array1, string[] array2)
  {
      int count = 0;
      for (int i = 0; i < array1.Length; i++)
@@ -27,5 +26,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArrayWithIF(array1, array2);
+SecondArray(array1, array2);
 PrintArray(array2);
